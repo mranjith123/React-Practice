@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Align items to the edges */
+  align-items: center; /* Vertically center items */
+  padding: 10px 20px; /* Add some padding */
+  background-color: blue; 
+  color: green; /* Text color */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex; /* Arrange items horizontally */
+  gap: 15px; /* Add spacing between links */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+  color:yellow; 
+  padding: 8px 12px;
+  border-radius: 5px;
+  
+}
+
+.navbar a:hover {
+  background-color: lightblue; /* Hover background color */
+}

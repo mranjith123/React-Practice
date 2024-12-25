@@ -1,0 +1,16 @@
+.services {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .service-item {
+    margin: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .services {
+      padding: 20px;
+    }
+  }
+  

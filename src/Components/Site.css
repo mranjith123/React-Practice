@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:green;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .dropdown {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .dropbtn {
+    background-color: inherit;
+    color: white;
+    padding: 14px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .search-icon {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .signup {
+    cursor: pointer;
+    border-radius: 2px solid black;
+    background-color: blue;
+    padding:10px;
+  }
+  .Login
+  {
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 4px solid blue;
+    padding:10px;
+    margin-left:2px;
+  }
+  

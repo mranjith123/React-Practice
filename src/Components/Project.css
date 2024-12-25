@@ -1,0 +1,49 @@
+.Project {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    padding: 20px;
+    background-color:rgb(255, 0, 119);
+    color: blue;
+    text-align: left;
+  }
+  
+  .Project h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center; /* Center heading */
+    color: #444;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%; /* Limit content width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .project-card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .project-card ul li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  

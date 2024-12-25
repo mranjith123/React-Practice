@@ -1,0 +1,35 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    min-height: 90vh; /*Full screen height */
+    padding: 20px;
+    background-color:lightblue; /* Light background */
+    color: green;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:blue;
+  }
+  
+  .services ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+  }
+  
+  .services li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: green;
+  }
+  
+  .services li::before {
+    content: "✔ "; /* Add a checkmark before each service */
+    color: blue;
+    font-weight: bold;
+  }
+  

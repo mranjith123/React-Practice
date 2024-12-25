@@ -1,0 +1,100 @@
+/* General styles for the hero section */
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px;
+    background-color: #f4f4f4;
+  }
+  
+  .hero-content {
+    max-width: 30%;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust logo size as needed */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Adjust button color as needed */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hero-btns {
+    margin-top: 20px;
+  }
+  
+  .shop-now-button,
+  .category-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .shop-now-button {
+    background-color: #28a745; /* Adjust color as needed */
+    color: white;
+  }
+  
+  .category-button {
+    background-color: #ddd; /* Adjust color as needed */
+  }
+  
+  .shopping {
+    margin-top: 20px;
+  }
+  
+  .shopping p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .brand-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .brand-icons img {
+    width: 100px; /* Adjust brand icon size as needed */
+  }
+  
+  .hero-image {
+    max-width: 40%;
+  }
+  
+  .hero-image img {
+    width: 100%;
+  }
+  

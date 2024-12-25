@@ -1,0 +1,26 @@
+.experience {
+    display: flex;
+    flex-direction: column; /* Stack heading and paragraphs vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text within the container */
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Text color */
+  }
+  
+  .experience h2 {
+    font-size: 60px;
+    margin-bottom: 20px; /* Spacing below the heading */
+    color: Green; /* Slightly darker color for the heading */
+  }
+  
+  .experience p {
+    font-size: 25px;
+    line-height: 1.6; /* Improved readability */
+    max-width: 600px; /* Limit the width of the text for better readability */
+    margin: 10px 0; /* Add spacing between paragraphs */
+    color:blue;
+  }
+  

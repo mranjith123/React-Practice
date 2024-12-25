@@ -1,0 +1,55 @@
+*
+body{
+    background-color: lightblue;
+}
+.portfolio {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-top:20%; /* Make it full height */
+    padding: 20px;
+    /* background-color: #f9f9f9;  */
+  }
+  
+  .portfolio-content {
+    display: flex;
+    width: 80%; /* Restrict content width */
+    gap: 20px; /* Add spacing between text and image */
+    align-items: center; /* Vertically align text and image */
+  }
+  
+  .portfolio-text {
+    flex: 1; /* Take 50% width */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .portfolio-text h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:green;
+    
+  }
+  
+  .portfolio-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    color:green;
+    
+  }
+  
+  .portfolio-image {
+    flex: 1; /* Take 50% width */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+    
+  }
+  
+  .portfolio-image img {
+    position:fixed;
+    max-width: 100%; /* Ensure the image scales within its container */
+    height: auto; /* Maintain image aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  

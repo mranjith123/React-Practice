@@ -1,0 +1,37 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    padding: 30px;
+    background-color: lightblue; /* Light background for better readability */
+    color: green;
+    text-align: left;
+  }
+  
+  .education h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: Blue;
+  }
+  
+  .education-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%; /* Limit content width for readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 2.0;
+  }
+  
+  .education-details p {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .education-details strong {
+    color: #222;
+    font-weight: bold;
+  }
+  
